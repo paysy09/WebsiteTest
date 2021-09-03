@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITLearnings</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" 
+    href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
+    crossorigin="anonymous"/>
+    <link href="https:fonts.goggleapis.com/csss27family=kumbh+sand:wght@400:700&dsiplay=swap" 
+    rel="stylesheet"/>    
+</head>
+<body>
+    <!--Navbar section-->
+   <nav class="navbar">
+       <div class="navbar_container">
+            <a href= "/" id="#navbar_logo">
+                <i class="/">ITLearnings</a> 
+<div class="navbar_toggle" id="mobile-menu">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+</div>
+       <ul class="navbar_menu">
+           <li class="navbar_item">
+               <a href="/" class="navbar_links">Home</a>
+           </li>
+           <li class="navbar_links">
+               <a href="/programLanguages.html" class="navbar_links">Programming Languages
+            </a>
+           </li>
+           <li class="navbar_item">
+               <a href="/DataBase.html" class="navbar_links">Database</a>
+           </li>
+           <li class="navbar_item">
+            <a href="/SoftwareTesting.html" class="navbar_links">SoftwareTesting</a>
+        </li>
+        <li class="navbar_item">
+            <a href="/InterviewQuestions.html" class="navbar_links">InterviewQuestions</a>
+        </li>
+        <li class="navbar_item">
+            <a href="/Technologies.html" class="navbar_links">Technologies</a>
+        </li>
+        <li class="navbar_item">
+            <a href="/Domains.html" class="navbar_links">Domains</a>
+       </ul>
+     </div>
+   </nav> 
+   <!-- Hero Section -->
+   <div class="wrapper">
+       <div class ="Java">
+           <h2>Java</h2>
+           <ul>
+            <li><a href="/About_Java.html">About Java</a></li>
+            <li><a href="/Java_Variables.html">Java Variables</a></li>
+            <li><a href="/Java_Datatypes.html">Java Datatypes</a></li>
+            <li><a href="/Java_methods.html">Java Methods</a></li>
+            <li><a href="/Java_Objects.html">Java Objects</a></li>
+            <li><a href="/Java_Class.html">Java Class</a></li>
+            <li><a href="/Java_Multiheritence.html">Java Multiheritence</a></li>
+            <li><a href="/Java_Multithreading.html">Java Mutltithreading</a></li>
+            <li><a href="/Java_Data_Encapsulation.html">Java Data Encapsulation</a></li>
+            <li><a href="/Java_Polymorphism.html">Java Polymorphism</a></li>
+       </div>
+   </div>
+   <div class="topic_content">
+    <h1>Java Variables</h1>
+    <p>The Java programming language defines the following kinds of variables:
+
+       <p> <b>Instance Variables (Non-Static Fields)</b> Technically speaking, objects store their individual states in "non-static fields", that is, fields declared without the static keyword. Non-static fields are also known as instance variables because their values are unique to each instance of a class (to each object, in other words); the currentSpeed of one bicycle is independent from the currentSpeed of another.
+       <P> <b>Class Variables (Static Fields) </b> A class variable is any field declared with the static modifier; this tells the compiler that there is exactly one copy of this variable in existence, regardless of how many times the class has been instantiated. A field defining the number of gears for a particular kind of bicycle could be marked as static since conceptually the same number of gears will apply to all instances. The code static int numGears = 6; would create such a static field. Additionally, the keyword final could be added to indicate that the number of gears will never change.
+        <p> <b>Local Variables </b> Similar to how an object stores its state in fields, a method will often store its temporary state in local variables. The syntax for declaring a local variable is similar to declaring a field (for example, int count = 0;). There is no special keyword designating a variable as local; that determination comes entirely from the location in which the variable is declared — which is between the opening and closing braces of a method. As such, local variables are only visible to the methods in which they are declared; they are not accessible from the rest of the class.
+        <p> <b>Parameters</b> You've already seen examples of parameters, both in the Bicycle class and in the main method of the "Hello World!" application. Recall that the signature for the main method is public static void main(String[] args). Here, the args variable is the parameter to this method. The important thing to remember is that parameters are always classified as "variables" not "fields". This applies to other parameter-accepting constructs as well (such as constructors and exception handlers) that you'll learn about later in the tutorial.
+        
+        <p> Having said that, the remainder of this tutorial uses the following general guidelines when discussing fields and variables. If we are talking about "fields in general" (excluding local variables and parameters), we may simply say "fields". If the discussion applies to "all of the above", we may simply say "variables". If the context calls for a distinction, we will use specific terms (static field, local variables, etc.) as appropriate. You may also occasionally see the term "member" used as well. A type's fields, methods, and nested types are collectively called its members. </p>
+        
+        
+   </div>
+   <!--Services Section-->
+   <!-- <div class="services">
+       <h1>See what hype is about</h1>
+       <div class="services_container">
+           <div class="services_card">
+               <h2>Experience Bliss</h2>
+               <p>AI powered Technology</p>
+               <button>Get Started</button>
+           </div>
+           <div class="services_card">
+            <h2>Are you ready?</h2>
+            <p>Take the leap</p>
+            <button>Get Started</button>
+        </div>
+       </div>
+   </div> -->
+   <!--Footer section-->
+   <div class="footer_container">
+       <div class="footer_links">
+           <!-- <div class="footer_link--wrapper">
+              <div class="footer_links--items">
+                   <h2>Company</h2>
+                   <a href="/">How it works</a>
+                   <a href="/">Testimonials</a>
+                   <a href="/">Careers</a>
+                   <a href="/">About us</a>
+                   <br></br>
+                   <a href="/">Terms of Services</a>
+               </div>
+               <div class="footer_links--items">
+                <h2>About Us</h2>
+                <a href="/">How it works</a>
+                <a href="/">Testimonials</a>
+                <a href="/">Careers</a>
+                <a href="/">Investments</a>
+                <a href="/">Terms of Services</a>
+            </div> -->
+           </div>
+           <!--<div class="footer_link--wrapper">
+            <div class="footer_links--items">
+                <h2>Videos</h2>
+                <a href="/">Submit Video</a>
+                <a href="/">Ambassdors</a>
+                <a href="/">Agency</a>
+                <a href="/">Influencer</a>
+            </div> -->
+            <!-- <div class="footer_links--items">
+             <h2>Social Media</h2>
+             <a href="/">Instagram</a>
+             <a href="/">facebook</a>
+             <a href="/">Youtube</a>
+             <a href="/">Twitter</a>
+         </div> 
+       </div>
+   </div> -->
+   <div class="social_media">
+       <div class="social_media--wrap">
+           <!--<div class="footer_logo">
+               <a href="/" id="footer_logo">
+                <i class="fas faa-gem"></i>ITLearnings</a>
+           </div>-->
+           <p class="website_rights"> ©2021 ITLearnings. All rights reserved.</p>
+          <!-- <div class="social_icons">
+               <a href="/" class="social_icon--link"
+               target="_blank">
+            <i class="fab fa-facebook"></i>
+            </a>
+            <a href="/" class="social_icon--link" 
+               target="_blank">
+            <i class="fab fa-instagram"></i>
+            </a><a href="/" class="social_icon--link"
+            target="_blank">
+         <i class="fab fa-Linkendin"></i>
+         </a>
+         <a href="/" class="social_icon--link" 
+         target="_blank">
+      <i class="fab fa-twitter"></i>
+      </a>
+      <a href="/" class="social_icon--link" 
+      target="_blank">
+   <i class="fab fa-youtube"></i>
+   </a>
+</div> -->
+
+<div class = "termsAndConditions">
+    <a href="/">Terms and Conditions</a>
+</div>
+
+<div class = "privacyPolicy">
+    <a href="/">Privacy Policy</a>
+</div>
+</div>
+   </div>
+   <script src ="app.js"></script>
+</body>
+</html>
